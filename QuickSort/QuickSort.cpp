@@ -35,7 +35,7 @@ void quickSort(int arr[], int primero, int ultimo){
 	}
 }
 int main (){
-	int arr[] ={38, 100, 43, 3, 9, 82, 10};
+	int arr[] ={10, 100, 5, 99, 36, 12, 55};
 	int tamanio = sizeof(arr) / sizeof(arr[0]);
 	quickSort(arr, 0 , tamanio-1);
 	cout << "Arreglo ordenado:" << endl;
